@@ -1,0 +1,29 @@
+div{
+    background-color: orange;
+    height: 150px;
+
+}
+input{
+    margin-left: 800px;
+    width: 300px;
+    height: 20px;
+}
+button{
+    width: 80px;
+    height: 25px;
+}
+h1{
+    padding-top: 20px;
+    margin-left: 45px;
+    
+}
+a{
+    font-size: 30px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+#abc{
+    margin-top:310px;
+    background-color: green;
+    height: 100px;
+}

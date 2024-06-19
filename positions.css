@@ -1,0 +1,37 @@
+div{
+    width: 200px;
+    height: 200px;
+    display: inline;
+    background-color: aquamarine;
+}
+#one{
+    background-color: burlywood;
+    position: static;
+}
+#two{
+    background-color: cadetblue;
+    position: relative;
+    
+}
+#thr{
+    background-color: chartreuse;
+    position: absolute;
+   
+}
+#fr{
+    background-color: chocolate;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+}
+#fv{
+    background-color: coral;
+    position: sticky;
+    bottom: 100px;
+
+}
+body{
+    background-image: url("my\ img.jpg");
+    background-size: contain;
+}

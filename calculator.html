@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ADDITION OF TWO NUMBER</h1>
+    <input type="number" placeholder="Enter the value 1" id="val1"><br>
+    <input type="number" placeholder="Enter the value 2" id="val2"><br>
+    <button onclick="cal()">Calculate</button>
+    <p id="ans"></p>
+</body>
+<script>
+    function cal(){
+        var a=document.getElementById("val1").value;
+        var b=document.getElementById("val2").value;
+        var answer=parseInt(a)+parseInt(b);
+        document.getElementById("ans").innerText=answer;
+    }
+</script>
+</html>

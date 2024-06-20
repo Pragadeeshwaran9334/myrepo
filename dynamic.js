@@ -45,9 +45,14 @@ else
 //     return flower
 // }
 
-let add=(a)=>{
-    console.log(a);
-}
-let a=10;
-let b=30;
-add(a)
+// let add=(a)=>{
+//     console.log(a);
+// }
+// let a=10;
+// let b=30;
+// add(a)
+
+const animals=["tiger","lion","dragon","deer"]
+document.write(`before:-->${animals}`)
+animals.splice(3,2,"cat")
+document.write("<br>",`after:-->${animals}`)

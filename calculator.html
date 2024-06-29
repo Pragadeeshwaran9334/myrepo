@@ -6,18 +6,53 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>ADDITION OF TWO NUMBER</h1>
-    <input type="number" placeholder="Enter the value 1" id="val1"><br>
+    <h1>CALCULATOR</h1>
+    <input type="number" placeholder="Enter the value 1" id="val1"><br><br>
     <input type="number" placeholder="Enter the value 2" id="val2"><br>
-    <button onclick="cal()">Calculate</button>
+    <br>
+    <button onclick="add()">Add</button>
+    <button ondblclick="sub()">Sub</button>
+    <button onmouseover="mul()">Mul</button>
+    <button onblur="div()">Div</button><br><br>
+    <input readonly id="ans">
     <p id="ans"></p>
 </body>
+<style>
+    *{
+        background-color: grey;
+        text-align: center;
+    }
+    h1{
+        top: 50px;
+    }
+    input{
+
+    }
+</style>
 <script>
-    function cal(){
+    function add(){
         var a=document.getElementById("val1").value;
         var b=document.getElementById("val2").value;
         var answer=parseInt(a)+parseInt(b);
-        document.getElementById("ans").innerText=answer;
+        document.getElementById("ans").value=answer;
+    }
+    function sub(){
+        var a=document.getElementById("val1").value;
+        var b=document.getElementById("val2").value;
+        var answer=parseInt(a)-parseInt(b);
+        document.getElementById("ans").value=answer;
+    }
+    function mul(){
+        var a=document.getElementById("val1").value;
+        var b=document.getElementById("val2").value;
+        var answer=parseInt(a)*parseInt(b);
+        document.getElementById("ans").value=answer;
+    }
+    function div(){
+        var a=document.getElementById("val1").value;
+        var b=document.getElementById("val2").value;
+        var answer=parseInt(a)/parseInt(b);
+        document.getElementById("ans").value=answer;
     }
 </script>
 </html>

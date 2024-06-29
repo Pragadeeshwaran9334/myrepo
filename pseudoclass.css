@@ -2,17 +2,16 @@ div{
     width: 100px;
     height: 100px;
     background-color: red;
-   
-    transition-duration: 1s;
+    transition: all 25s ease-in 1s;
     position: relative;
-    
-    transition-delay: 0s;
-    
+    top: 100px;
+    left: 100px;
+    border-radius: 100%;
 }
 div:hover{
     background-color: green;
     color: white;
-    width: 250px;
-    height: 250px;
+   font-family: fantasy;
+   transform: rotate(40000000000deg);
     
 }

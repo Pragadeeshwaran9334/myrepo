@@ -1,0 +1,71 @@
+div{
+    width: 100px;
+    height: 100px;
+    animation-name: myanime;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    position: relative;
+    animation-iteration-count: infinite;
+    border-radius: 100%;
+    border-width: 2px;
+    border-style: dashed;
+    
+
+}
+/* .one{
+    width: 100px;
+    height: 100px;
+    animation-name: myanime;
+animation-duration: 3s;
+animation-delay: 0.5s;
+position: relative;
+} */
+@keyframes myanime
+{
+from{
+background-color: darkblue;
+
+ }
+to
+{
+background-color: green;
+
+}
+
+/* 0%{
+    background-color: aquamarine;
+    left: 0%;
+    
+   
+}
+25%{
+    background-color: black;
+    left: 50%;
+    
+    
+    
+    
+}
+50%{
+    background-color: brown;
+    left: 50%;
+    top: 500px;
+    
+   
+}
+
+75%{
+    background-color: chartreuse;
+    left: 100%;
+    
+     
+   
+ }
+100%{
+    background-color: aqua;
+    left: 100%;
+    top: 500px;
+    
+    
+} */
+}

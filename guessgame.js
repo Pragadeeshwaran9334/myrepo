@@ -1,4 +1,4 @@
-random=10
+random=45
 let guessno=prompt("enter a nmbr")
 while(guessno!=random){
     console.log("try again")
